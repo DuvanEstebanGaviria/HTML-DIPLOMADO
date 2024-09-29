@@ -1,0 +1,31 @@
+
+-- Ver configuraciones de GIT --
+
+git config --global --list
+
+-- Agregar configuración --
+
+git config --global user.name "cdgalvis"
+git config --global user.email cristiangalviscardona@gmail.com
+
+-- Eliminar Configuración --
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+También debemos ir a las credenciales de Windows y eliminar el GIT
+
+
+------ Comandos para realizar subidas.
+
+git init
+git remote add origin ENLACE_URL
+
+git add .
+git commit -m "Comentario"
+git push origin NOMBRE_RAMA
+
+
+-- Actualizar repositorio local
+
+git pull origin NOMBRE_RAMA
