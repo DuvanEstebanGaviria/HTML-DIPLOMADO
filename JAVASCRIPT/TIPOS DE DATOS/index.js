@@ -1,6 +1,6 @@
-let -> se usa para declarar variables segun el scope
-var -> se usa para declarar variables de esdo global, puede reasignarse incluso cambiar de tipo en el futuro
-const-> se declara y se inicializa una sola vez, su valor no puede ser reasignado en el futuro
+let -> se usa para declarar variables segun el scope -LOCAL
+var -> se usa para declarar variables de esdo global, puede reasignarse incluso cambiar de tipo en el futuro -GLOBAL
+const-> se declara y se inicializa una sola vez, su valor no puede ser reasignado en el futuro -NO CAMBIA
 
 
 //Datos primitivos 
